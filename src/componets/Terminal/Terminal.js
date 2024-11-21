@@ -11,7 +11,7 @@ function Terminal () {
                 <div>
                     <div className="terminal" id="terminal">
                         <div>
-                            <img src="assets/people-images.png" alt="terminal-icon" />
+                            <img src="assets/People-images.png" alt="terminal-icon" />
                         </div>
                         <div>
                             <h1>Meet Client Satisfaction<br/>
