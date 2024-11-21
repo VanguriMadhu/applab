@@ -1,0 +1,61 @@
+.accordion-item .accordion-header .accordion-button {
+    font-size: 1.25rem;
+    line-height: 3.6rem;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.accordion-body {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-family: 'Poppins';
+    color: #616368;
+    background-color: #f5f7fa;
+}
+
+/* .accordion-button:not(.collapsed) {
+    background-color: #f5f7fa !important;
+} */
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "+" !important;
+    background-image: unset !important;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    font-size: 1.5em; /* Adjust this value to increase the size */
+    color: inherit; /* Ensure the color matches your design */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: unset !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.faq-change h1{
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 3.6rem;
+    font-weight: bold;
+    font-family: 'Poppins';
+    padding-bottom: 2.8rem;
+}
+
+.faq-change p{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-family: 'Poppins';
+    color: #616368;
+    padding-bottom: 4.2rem;
+}
+
+.faq-hr hr{
+        margin-top: 7.1rem;
+}
