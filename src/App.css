@@ -1220,5 +1220,6 @@ margin: 0;
     }
     .terminal-change{
         padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
