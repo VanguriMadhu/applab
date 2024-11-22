@@ -13,7 +13,7 @@ function Terminal () {
                         <div>
                             <img src="assets/People-images.png" alt="terminal-icon" />
                         </div>
-                        <div>
+                        <div className="terminal-change">
                             <h1>Meet Client Satisfaction<br/>
                                 by using product</h1>
                             <p>The rise of mobile devices transforms the way we consume.<br/>
